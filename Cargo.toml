@@ -1,0 +1,10 @@
+[package]
+name = "ferlibc"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cbindgen = "0.27.0"
+
+[lib]
+crate-type = ["cdylib"]

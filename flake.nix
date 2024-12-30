@@ -1,5 +1,5 @@
 {
-  description = "A common libc, made by Rust-lang";
+  description = "A simple libc, made by Rust-lang";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";

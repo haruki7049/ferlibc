@@ -1,0 +1,8 @@
+language = "C"
+no_includes = true
+
+[defines]
+"target_os = freebsd" = "DEFINE_FREEBSD"
+
+[macro_expansion]
+bitflags = true

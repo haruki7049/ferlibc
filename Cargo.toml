@@ -1,14 +1,10 @@
-[workspace]
-resolver = "2"
-members = [
-    "crates/*"
-]
-
-[workspace.package]
-version = "0.1.0-dev"
-authors = ["haruki7049 <tontonkirikiri@gmail.com>"]
-repository = "https://github.com/haruki7049/ferlibc.git"
-license = "Apache OR MIT"
-
-[workspace.metadata.crane]
+[package]
 name = "ferlibc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[build-dependencies]
+cbindgen = "0.27.0"

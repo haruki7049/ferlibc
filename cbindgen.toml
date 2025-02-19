@@ -1,0 +1,9 @@
+language = "C"
+no_includes = true
+documentation = true
+documentation_style = "c"
+documentation_length = "full"
+#item_types = ["constants", "globals", "enums", "structs", "unions", "typedefs", "opaque", "functions"]
+
+[macro_expansion]
+bitflags = true
